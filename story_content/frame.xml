@@ -6,7 +6,6 @@
     <layout name="npxnabnsnfns00000000101" font="Open Sans" controllayout="npxnabnsnfns00000000101" colorscheme="npnxnanbnsnfns00000000101" string_table="npnxnanbnsnfns00000000101" />
     <layout name="npnxnanbnsnfns00000000101" font="Open Sans" controllayout="npnxnanbnsnfns00000000101" colorscheme="npnxnanbnsnfns00000000101" string_table="npnxnanbnsnfns00000000101" />
     <layout name="pxabnsnfns00000000100" font="Open Sans" controllayout="pxabnsnfns00000000100" colorscheme="npnxnanbnsnfns00000000101" string_table="npnxnanbnsnfns00000000101" />
-    <layout name="npnxanbnsnfns00000000101" font="Open Sans" controllayout="npnxanbnsnfns00000000101" colorscheme="npnxnanbnsnfns00000000101" string_table="npnxnanbnsnfns00000000101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -14,7 +13,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="Project Fluida Statis" />
+              <option name="title_text" value="Project Fluida Statis 5" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -29,14 +28,14 @@
           <optionlist name="tabs">
             <listitems>
               <listitem name="resources" value="false" group="linkright" />
-              <listitem name="outline" value="false" group="sidebar" />
+              <listitem name="outline" value="true" group="sidebar" />
               <listitem name="glossary" value="false" group="sidebar" />
               <listitem name="transcript" value="false" group="sidebar" />
             </listitems>
           </optionlist>
           <option name="time_enabled" value="false">
             <options>
-              <option name="time_format" value="" />
+              <option name="time_format" value="elapsed" />
             </options>
           </option>
           <option name="video_enabled" value="false">
@@ -197,29 +196,6 @@
         </controls>
       </control>
       <control name="close_btn" enabled="false" />
-    </control_layout>
-    <control_layout name="npnxanbnsnfns00000000101">
-      <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
-      <control name="previous" enabled="false" />
-      <control name="next" enabled="false" />
-      <control name="swipeleft" enabled="true" />
-      <control name="swiperight" enabled="false" />
-      <control name="submit" enabled="false" />
-      <control name="finish" enabled="false" />
-      <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
-      <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="false" />
-      <control name="outline" enabled="false">
-        <controls>
-          <control name="search" enabled="false" />
-        </controls>
-      </control>
-      <control name="close_btn" enabled="true" />
     </control_layout>
   </control_layouts>
   <colorschemes>
@@ -1225,19 +1201,32 @@
           <links>
             <slidelink slideid="_player.5f05LT7FXjI.6fEgODAl1kZ" displaytext="Menu materi" expand="false" type="slide" />
             <slidelink slideid="_player.5f05LT7FXjI.5aAEdGoGvZz" displaytext="Permasalahan 1" expand="false" type="slide" />
-            <slidelink slideid="_player.5f05LT7FXjI.6TjthhCkQha" displaytext="Permasalahan 1" expand="false" type="slide" />
             <slidelink slideid="_player.5f05LT7FXjI.67vyLN80cFO" displaytext="Permasalahan 2" expand="false" type="slide" />
-            <slidelink slideid="_player.5f05LT7FXjI.6He0gf7So6o" displaytext="Fluida" expand="false" type="slide" />
-            <slidelink slideid="_player.5f05LT7FXjI.5v0E8sn4IXL" displaytext="Fluida" expand="false" type="slide" />
             <slidelink slideid="_player.5f05LT7FXjI.5yNQrsnLEWj" displaytext="Fluida" expand="false" type="slide" />
             <slidelink slideid="_player.5f05LT7FXjI.6769LpaQN6q" displaytext="Fluida" expand="false" type="slide" />
             <slidelink slideid="_player.5f05LT7FXjI.5iKL3dLPJgj" displaytext="Massa Jenis " expand="false" type="slide" />
             <slidelink slideid="_player.5f05LT7FXjI.6CYB8TCXj8c" displaytext="Massa Jenis " expand="false" type="slide" />
-            <slidelink slideid="_player.5f05LT7FXjI.6JwgGmIXztV" displaytext="Massa Jenis " expand="false" type="slide" />
-            <slidelink slideid="_player.5f05LT7FXjI.6OZJL5Ia2Sv" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5f05LT7FXjI.5Z0CmH7mFog" displaytext="massa jenis penjelasan" expand="false" type="slide" />
             <slidelink slideid="_player.5f05LT7FXjI.5kVsmbPCJqh" displaytext="Tekanan Hidrostatis" expand="false" type="slide" />
+            <slidelink slideid="_player.5f05LT7FXjI.5z8nyUuZHzj" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5f05LT7FXjI.5urAw5QDjR3" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5f05LT7FXjI.5njcUbJIWs6" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5f05LT7FXjI.6gPAQsephZ9" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5f05LT7FXjI.5sEIK3JlmyH" displaytext="Pick Many" expand="false" type="slide" />
+            <slidelink slideid="_player.5f05LT7FXjI.606vYyNabr8" displaytext="akhir pertemuan 1" expand="false" type="slide" />
+            <slidelink slideid="_player.5f05LT7FXjI.6FdZRXQJ4Yo" displaytext="akhir pertemuan 2" expand="false" type="slide" />
             <slidelink slideid="_player.5f05LT7FXjI.6HgLAhDmImK" displaytext="Hukum Paskal" expand="false" type="slide" />
+            <slidelink slideid="_player.5f05LT7FXjI.5kf1NWdl9rz" displaytext="Hukum Paskal" expand="false" type="slide" />
+            <slidelink slideid="_player.5f05LT7FXjI.6VxH0RyzM5b" displaytext="Hukum Paskal" expand="false" type="slide" />
+            <slidelink slideid="_player.5f05LT7FXjI.5ZUuVGzk6tj" displaytext="Hukum Paskal" expand="false" type="slide" />
+            <slidelink slideid="_player.5f05LT7FXjI.5rHWLAb5H0P" displaytext="Hukum Archimides" expand="false" type="slide" />
+            <slidelink slideid="_player.5f05LT7FXjI.6Et9jrkHRHb" displaytext="Hukum Archimides" expand="false" type="slide" />
+            <slidelink slideid="_player.5f05LT7FXjI.5eBJqhwFNs3" displaytext="Hukum Archimides" expand="false" type="slide" />
+            <slidelink slideid="_player.5f05LT7FXjI.6V78jLIVKPI" displaytext="Hukum Archimides" expand="false" type="slide" />
+            <slidelink slideid="_player.5f05LT7FXjI.5pV6HfI3GaU" displaytext="Hukum Archimides" expand="false" type="slide" />
             <slidelink slideid="_player.5f05LT7FXjI.5pPsUrpgVHG" displaytext="Hukum Archimides" expand="false" type="slide" />
+            <slidelink slideid="_player.5f05LT7FXjI.6Q5I9bEVEIP" displaytext="Drag and Drop" expand="false" type="slide" />
+            <slidelink slideid="_player.5f05LT7FXjI.5fFpmlX2TFd" displaytext="Pick One" expand="false" type="slide" />
           </links>
         </slidelink>
         <slidelink slideid="_player.6OuAXYEjzyf" displaytext="CP+ATP" expand="true" type="slide">
@@ -1255,6 +1244,11 @@
           <links>
             <slidelink slideid="_player.6eQijEHfJiu.6F4q3eVNDeB" displaytext="Menu Quiz" expand="false" type="slide" />
             <slidelink slideid="_player.6eQijEHfJiu.5aRxXPgPSZi" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6eQijEHfJiu.5ql2OD2Z2pi" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6eQijEHfJiu.6IMajNzUWOL" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6eQijEHfJiu.6eR3cuneTa5" displaytext="Draw from Quiz 3 nih boss" expand="false" type="slide" />
+            <slidelink slideid="_player.6eQijEHfJiu.5j8KvCAvub0" displaytext="Draw from Quiz 2 nih bozz" expand="false" type="slide" />
+            <slidelink slideid="_player.6eQijEHfJiu.6e84YfcbAk1" displaytext="Draw from quiz 1 REALLL BOSS" expand="false" type="slide" />
           </links>
         </slidelink>
         <slidelink slideid="_player.5odoENCtcMv" displaytext="LKPD" expand="true" type="slide">
